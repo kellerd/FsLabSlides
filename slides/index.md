@@ -1,15 +1,14 @@
-(**
 - title : Self Improvement with Data Science and F#
 - description : Introduction to FsLab, Type Provers, RProvider in F#
 - author : Dan Keller
 - theme : Sky
 - transition : default
-**)
-***
 
+***
 ### Self Improvement with Data Science and F#
 - Dan Keller
-- daniel.allan.keller@gmail.com
+- [daniel.allan.keller@gmail.com](mailto:daniel.allan.keller@gmail.com)
+- https://github.com/kellerd
 - Introduction to FsLab, Type Provers, RProvider in F#
  - A few of open source offerings
 - Recent Functional hobbyist.
@@ -19,8 +18,8 @@
 ### Why F#
 - .NET goverment shop (it was already installed)
  - Familiar environment
-- Mucking about. (Functional, Imperative, OO)
-(images/oball.jpg)
+- Great for mucking about. (Functional, Imperative, OO) 
+![When you have a hammer everything looks like a nail](images/oball.jpg)
 - 10x developer vs 0.1x developer
 
 ***
@@ -30,8 +29,8 @@
  - CRUD
  - Barely any business logic
  - Huge side effecting pages
-    - DB -> IO
-    - IO -> DB
+  - ``DB -> IO``
+  - ``IO -> DB``
 
 ---
 
@@ -40,30 +39,30 @@
  - Not pretty
  - Not complete
  - Hack and slash
- - ~~Continuous Integration~~ Drop and rewrite, many, many, many times.
+ - "Continuous Integration" 
+   - Drop and rewrite, many, many, many times.
 
 ***
 
-# (images/warning.png)Disclaimer(images/warning.png)
+#![Warning](images/warning.png)Disclaimer![Warning](images/warning.png)
 ### Awesome things exist written in F#
 
 ---
 
-### Project Springfield
+### [Project Springfield](https://www.microsoft.com/en-us/springfield/)
  - Whitebox Fuzzing service
  - Low time to market
- - [https://www.microsoft.com/en-us/springfield/]
 
 ---
-### [Jet.com]
+### [Jet.com](http://jet.com)
  - Amazon Competitor
  - Bought by Walmart for 3 Billion
 
 ---
 
 ### The Louvre in Abu Dhabi
-(images/louvre.jpg)
-- [https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-of-Louvre-Abu-Dhabi]
+![Roof](images/louvre.jpg)
+https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-of-Louvre-Abu-Dhabi
 
 ***
 
@@ -77,10 +76,15 @@
 ### Current release
 - Basic personal time tracker
 
+---
+
 ### Stretch Goals
 - Kanban board
  - HTML and CSS are boring
+  - I learned those 20 years ago
  - Functional much more interesting
+
+
 
 ---
 
@@ -103,6 +107,10 @@
 ### I know. Pretty bad.
  - Mostly backend
  - Very personal
+
+---
+
+### Where is the value for me?
  - Data
 
 ***
@@ -112,14 +120,18 @@
 - [Ionide](http://ionide.io/) plugin for F# awesomeness
 - Paket, F# package manager. Nuget only goes so far, paket does nuget + much more
 
+Alternatives:
+
+- [Visual Studio Community](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) (Free)
+
 ***
 
 ### Lessons 1
-- Spike in work from my Airbrush. Makes me more efficient?
-- The things I like to complete
+- Spike in work from my Airbrush
+- Found the things I like to complete
  - Directly maps to industry
- - Are they reading customers wants, or is their marketing working
-- Change the way I paint. Assembly line
+ - Reading community vs marketing?
+- Change the way I paint
 - Start painting models for people
 
 ***
@@ -129,6 +141,7 @@
 - No need to learn D3 again! 
 - What's missing?
 
+***
 
 ### Data science presentations
 - Exploring StackOverflow
@@ -149,23 +162,27 @@
  - SQL Server Reporting Services 2008 : 0.13
  - Axapta : 0.13
  - DocusignAPI : 0.14
-'http://evelinag.com/exploring-stackoverflow/#/0/41
+
+http://evelinag.com/exploring-stackoverflow/#/0/41
+
 ---
 
 ####The Star Wars social network 
 - http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU 
 - https://youtu.be/EI8a6hFFRGQ
 
+***
 
 ### Alternate resources
-- MBrace.io
-- Azure Notebooks
-- BigDeedle
-- Angara https://github.com/Microsoft/?utf8=%E2%9C%93&q=Angara
-- FSharp.org
-- functionalprogramming.slack.com
-- http://fsprojects.github.io/FSharp.Data.TypeProviders/sqldata.html
-- http://bluemountaincapital.github.io/FSharpRProvider/mac-and-linux.html
-- http://fsprojects.github.io/SQLProvider/
-- http://fsprojects.github.io/FSharp.Data.SqlClient/
-- http://fsprojects.github.io/DynamicsCRMProvider/
+- [MBrace.io](MBrace.io)
+- [Azure Notebooks](https://notebooks.azure.com/)
+- [BigDeedle](https://github.com/BlueMountainCapital/Deedle.BigDemo)
+- [The Gamma](thegamma.net)
+- [Angara](https://github.com/Microsoft/?utf8=%E2%9C%93&q=Angara)
+- [FSharp.org](FSharp.org)
+- [functionalprogramming.slack.com](functionalprogramming.slack.com)
+- [FSharp.Data.TypeProviders](http://fsprojects.github.io/FSharp.Data.TypeProviders/sqldata.html)
+- [FSharpRProvider](http://bluemountaincapital.github.io/FSharpRProvider/mac-and-linux.html)
+- [SqlProvider](http://fsprojects.github.io/SQLProvider/)
+- [SqlClient Provider](http://fsprojects.github.io/FSharp.Data.SqlClient/)
+- [Dynamics CRM Provider](http://fsprojects.github.io/DynamicsCRMProvider/)
