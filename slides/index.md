@@ -1,22 +1,25 @@
 - title : Self Improvement with Data Science and F#
-- description : Introduction to FsLab, Type Provers, RProvider in F#
+- description : Introduction to FsLab, Type Providers, RProvider in F#
 - author : Dan Keller
 - theme : Sky
 - transition : default
 
 ***
 ### Self Improvement with Data Science and F#
-- Dan Keller
-- [daniel.allan.keller@gmail.com](mailto:daniel.allan.keller@gmail.com)
-- https://github.com/kellerd
-- Introduction to FsLab, Type Provers, RProvider in F#
+- Dan Keller 
+
+  [daniel.allan.keller@gmail.com](mailto:daniel.allan.keller@gmail.com)
+  
+  https://github.com/kellerd
+
+- Introduction to FsLab, Type Providers, RProvider in F#
  - A few of open source offerings
-- Recent Functional hobbyist.
 
 ---
 
 ### Why F#
-- .NET goverment shop (it was already installed)
+- Recent Functional hobbyist
+- Goverment .NET shop (it was already installed)
  - Familiar environment
 - Great for mucking about. (Functional, Imperative, OO) 
 ![When you have a hammer everything looks like a nail](images/oball.jpg)
@@ -36,11 +39,15 @@
 
 ### That one App
 - Features
+ - Useful
  - Not pretty
  - Not complete
  - Hack and slash
  - "Continuous Integration" 
-   - Drop and rewrite, many, many, many times.
+   - ``10 DELETE``
+   - ``20 REWRITE``
+   - ``30 PUBLISH``
+   - ``40 GOTO 10``
 
 ***
 
@@ -50,8 +57,9 @@
 ---
 
 ### [Project Springfield](https://www.microsoft.com/en-us/springfield/)
- - Whitebox Fuzzing service
+ - Security Testing service
  - Low time to market
+  - Minimun Viable Product 3 months
 
 ---
 ### [Jet.com](http://jet.com)
@@ -68,13 +76,14 @@ https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-o
 
 ### My "One App" is not
 - Isn't the greatest thing written in F#.
- - Until recently it wasn't
- - F# Mentorship program
+ - Until recently it wasn't (F# Mentoriship program)
 - I don't know if I should show it to you.
 
 ---
-### Current release
-- Basic personal time tracker
+
+### I know. Pretty bad.
+ - Mostly backend
+ - Very personal
 
 ---
 
@@ -84,7 +93,10 @@ https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-o
   - I learned those 20 years ago
  - Functional much more interesting
 
+---
 
+### Current release
+- Basic personal time tracker
 
 ---
 
@@ -101,12 +113,6 @@ https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-o
  - NoSQL
  - Azure
  - ... Everything else 2 years old
-
----
-
-### I know. Pretty bad.
- - Mostly backend
- - Very personal
 
 ---
 
