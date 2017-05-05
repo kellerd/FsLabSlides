@@ -151,8 +151,8 @@ Alternatives:
 
 ### Data science presentations
 - Exploring StackOverflow
- - http://evelinag.com/exploring-stackoverflow/#/
- - https://youtu.be/qlKZKN7il7c
+ - [http://evelinag.com/exploring-stackoverflow/#/](http://evelinag.com/exploring-stackoverflow/#/)
+ - [https://youtu.be/qlKZKN7il7c](https://youtu.be/qlKZKN7il7c)
 
 ---
 
@@ -174,8 +174,8 @@ http://evelinag.com/exploring-stackoverflow/#/0/41
 ---
 
 ####The Star Wars social network 
-- http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU 
-- https://youtu.be/EI8a6hFFRGQ
+- [http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU](http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU) 
+- [https://youtu.be/EI8a6hFFRGQ](https://youtu.be/EI8a6hFFRGQ)
 
 ***
 
