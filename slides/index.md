@@ -23,7 +23,6 @@
  - Familiar environment
 - Great for mucking about. (Functional, Imperative, OO) 
 ![When you have a hammer everything looks like a nail](images/oball.jpg)
-- 10x developer vs 0.1x developer
 
 ***
 ### Most of my apps
@@ -51,7 +50,8 @@
 
 ***
 
-#![Warning](images/warning.png)Disclaimer![Warning](images/warning.png)
+#![Warning](images/warning.png) 
+#Disclaimer!
 ### Awesome things exist written in F#
 
 ---
