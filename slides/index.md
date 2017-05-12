@@ -1,5 +1,5 @@
 - title : Self Improvement with Data Science and F#
-- description : Introduction to FsLab, Type Providers, RProvider in F#
+- description : Introduction to FsLab, Type Providers, R Language from F#
 - author : Dan Keller
 - theme : Sky
 - transition : default
@@ -12,8 +12,9 @@
   
   https://github.com/kellerd
 
-- Introduction to FsLab, Type Providers, RProvider in F#
+- Introduction to FsLab, Type Providers, R Language from in F#
  - A few of open source offerings
+ - Exploring how I work
 
 ---
 
