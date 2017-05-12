@@ -183,7 +183,7 @@ http://evelinag.com/exploring-stackoverflow/#/0/41
 - [MBrace.io](MBrace.io)
 - [Azure Notebooks](https://notebooks.azure.com/)
 - [BigDeedle](https://github.com/BlueMountainCapital/Deedle.BigDemo)
-- [The Gamma](thegamma.net)
+- [The Gamma](http://thegamma.net)
 - [Angara](https://github.com/Microsoft/?utf8=%E2%9C%93&q=Angara)
 - [FSharp.org](FSharp.org)
 - [functionalprogramming.slack.com](functionalprogramming.slack.com)
