@@ -1,5 +1,5 @@
 - title : Self Improvement with Data Science and F#
-- description : Introduction to FsLab, Type Providers, RProvider in F#
+- description : Introduction to FsLab, Type Providers, R Language from F#
 - author : Dan Keller
 - theme : Sky
 - transition : default
@@ -12,8 +12,9 @@
   
   https://github.com/kellerd
 
-- Introduction to FsLab, Type Providers, RProvider in F#
+- Introduction to FsLab, Type Providers, R Language from in F#
  - A few of open source offerings
+ - Exploring how I work
 
 ---
 
@@ -23,7 +24,6 @@
  - Familiar environment
 - Great for mucking about. (Functional, Imperative, OO) 
 ![When you have a hammer everything looks like a nail](images/oball.jpg)
-- 10x developer vs 0.1x developer
 
 ***
 ### Most of my apps
@@ -51,7 +51,8 @@
 
 ***
 
-#![Warning](images/warning.png)Disclaimer![Warning](images/warning.png)
+#![Warning](images/warning.png) 
+#Disclaimer!
 ### Awesome things exist written in F#
 
 ---
@@ -183,7 +184,7 @@ http://evelinag.com/exploring-stackoverflow/#/0/41
 - [MBrace.io](MBrace.io)
 - [Azure Notebooks](https://notebooks.azure.com/)
 - [BigDeedle](https://github.com/BlueMountainCapital/Deedle.BigDemo)
-- [The Gamma](thegamma.net)
+- [The Gamma](http://thegamma.net)
 - [Angara](https://github.com/Microsoft/?utf8=%E2%9C%93&q=Angara)
 - [FSharp.org](FSharp.org)
 - [functionalprogramming.slack.com](functionalprogramming.slack.com)
