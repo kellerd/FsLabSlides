@@ -16,15 +16,6 @@
  - A few of open source offerings
  - Exploring how I work
 
----
-
-### Why F#
-- Recent Functional hobbyist
-- Goverment .NET shop (it was already installed)
- - Familiar environment
-- Great for mucking about. (Functional, Imperative, OO) 
-![When you have a hammer everything looks like a nail](images/oball.jpg)
-
 ***
 ### Most of my apps
 - Line of business
@@ -131,9 +122,18 @@ Alternatives:
 
 - [Visual Studio Community](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15) (Free)
 
+---
+
+### Why F#
+- Recent Functional hobbyist
+- Goverment .NET shop (it was already installed)
+- Familiar environment
+- Terse 
+- Thought it was great for mucking about. 
+
 ***
 
-### Lessons 1
+### Lessons & Results
 - Spike in work from my Airbrush
 - Found the things I like to complete
  - Directly maps to industry
@@ -143,10 +143,11 @@ Alternatives:
 
 ***
 
-### Lessons 2
+### Lessons & Results 2
 - Use, relearn, find new statistics exploratively
 - No need to learn D3 again! 
 - What's missing?
+ - Punch clock
 
 ***
 
