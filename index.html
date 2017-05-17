@@ -1,0 +1,369 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Self Improvement with Data Science and F#</title>
+    <meta name="description" content="Introduction to FsLab, Type Providers, R Language from F#">
+    <meta name="author" content="Dan Keller">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="//code.jquery.com/jquery-1.8.0.js"></script>
+    <script src="//code.jquery.com/ui/1.8.23/jquery-ui.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/Sky.css" id="theme">
+    <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/style.css" />
+    <link type="text/css" rel="stylesheet" href="fsharp.formatting/styles/deedle.css" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+    <script src="fsharp.formatting/styles/tips.js" type="text/javascript"></script>
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/fsreveal.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <script language="javascript" type="text/javascript">
+        function init()
+        {
+            websocket = new WebSocket("ws://"+window.location.host+"/websocket");
+            websocket.onmessage = function(evt) { location.reload(); };
+        }
+        window.addEventListener("load", init, false);
+    </script>
+</head>
+<body>
+    <div class="reveal">
+        
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section >
+<h3>Self Improvement with Data Science and F#</h3>
+<ul>
+<li>
+<p>Dan Keller</p>
+<p><a href="mailto:daniel.allan.keller@gmail.com">daniel.allan.keller@gmail.com</a></p>
+<p><a href="https://github.com/kellerd">https://github.com/kellerd</a></p>
+</li>
+<li>
+<p>Introduction to FsLab, Type Providers, R Language from in F#</p>
+<ul>
+<li>A few of open source offerings</li>
+<li>Exploring how I work</li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<section >
+<h3>Most of my apps</h3>
+<ul>
+<li>
+Line of business
+<ul>
+<li>Not interesting</li>
+<li>CRUD</li>
+<li>Barely any business logic</li>
+<li>
+Huge side effecting pages
+<ul>
+<li><code>DB -&gt; IO</code></li>
+<li><code>IO -&gt; DB</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<h3>That one App</h3>
+<ul>
+<li>
+Features
+<ul>
+<li>Useful</li>
+<li>Not pretty</li>
+<li>Not complete</li>
+<li>Hack and slash</li>
+<li>
+"Continuous Integration"
+<ul>
+<li><code>10 DELETE</code></li>
+<li><code>20 REWRITE</code></li>
+<li><code>30 PUBLISH</code></li>
+<li><code>40 GOTO 10</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section >
+<section >
+<h1><img src="images/warning.png" alt="Warning" /></h1>
+<h1>Disclaimer!</h1>
+<h3>Awesome things exist written in F#</h3>
+</section>
+<section >
+<h3><a href="https://www.microsoft.com/en-us/springfield/">Project Springfield</a></h3>
+<ul>
+<li>Security Testing service</li>
+<li>
+Low time to market
+<ul>
+<li>Minimun Viable Product 3 months</li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<h3><a href="http://jet.com">Jet.com</a></h3>
+<ul>
+<li>Amazon Competitor</li>
+<li>Bought by Walmart for 3 Billion</li>
+</ul>
+</section>
+<section >
+<h3>The Louvre in Abu Dhabi</h3>
+<p><img src="images/louvre.jpg" alt="Roof" />
+<a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-of-Louvre-Abu-Dhabi">https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/The-3D-Geometry-of-Louvre-Abu-Dhabi</a></p>
+</section>
+</section>
+<section >
+<section >
+<h3>My "One App" is not</h3>
+<ul>
+<li>
+Isn't the greatest thing written in F#.
+<ul>
+<li>Until recently it wasn't (F# Mentoriship program)</li>
+</ul>
+</li>
+<li>I don't know if I should show it to you.</li>
+</ul>
+</section>
+<section >
+<h3>I know. Pretty bad.</h3>
+<ul>
+<li>Mostly backend</li>
+<li>Very personal</li>
+</ul>
+</section>
+<section >
+<h3>Stretch Goals</h3>
+<ul>
+<li>
+Kanban board
+<ul>
+<li>
+HTML and CSS are boring
+<ul>
+<li>I learned those 20 years ago</li>
+</ul>
+</li>
+<li>Functional much more interesting</li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<h3>Current release</h3>
+<ul>
+<li>Basic personal time tracker</li>
+</ul>
+</section>
+<section >
+<h3>Goals</h3>
+<ul>
+<li>Project for learning</li>
+<li>
+Testing different frameworks, technologies
+<ul>
+<li>Things I can't use at work</li>
+<li>D3</li>
+<li>Angular</li>
+<li>C# REST</li>
+<li>SPA</li>
+<li>Browser storage</li>
+<li>Local caching</li>
+<li>NoSQL</li>
+<li>Azure</li>
+<li>... Everything else 2 years old</li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<h3>Where is the value for me?</h3>
+<ul>
+<li>Data</li>
+</ul>
+</section>
+</section>
+<section >
+<section >
+<h3>Demo Tools</h3>
+<ul>
+<li><a href="https://code.visualstudio.com/">VsCode</a> Cross platform, lightweight, free</li>
+<li><a href="http://ionide.io/">Ionide</a> plugin for F# awesomeness</li>
+<li>Paket, F# package manager. Nuget only goes so far, paket does nuget + much more</li>
+</ul>
+<p>Alternatives:</p>
+<ul>
+<li><a href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&amp;rel=15">Visual Studio Community</a> (Free)</li>
+</ul>
+</section>
+<section >
+<h3>Why F#</h3>
+<ul>
+<li>Recent Functional hobbyist</li>
+<li>Goverment .NET shop (it was already installed)</li>
+<li>Familiar environment</li>
+<li>Terse</li>
+<li>Thought it was great for mucking about.</li>
+</ul>
+</section>
+</section>
+<section >
+<h3>Lessons &amp; Results</h3>
+<ul>
+<li>Spike in work from my Airbrush</li>
+<li>
+Found the things I like to complete
+<ul>
+<li>Directly maps to industry</li>
+<li>Reading community vs marketing?</li>
+</ul>
+</li>
+<li>Change the way I paint</li>
+<li>Start painting models for people</li>
+</ul>
+</section>
+<section >
+<h3>Lessons &amp; Results 2</h3>
+<ul>
+<li>Use, relearn, find new statistics exploratively</li>
+<li>No need to learn D3 again!</li>
+<li>
+What's missing?
+<ul>
+<li>Punch clock</li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<section >
+<h3>Data science presentations</h3>
+<ul>
+<li>
+Exploring StackOverflow
+<ul>
+<li><a href="http://evelinag.com/exploring-stackoverflow/#/"><a href="http://evelinag.com/exploring-stackoverflow/#/">http://evelinag.com/exploring-stackoverflow/#/</a></a></li>
+<li><a href="https://youtu.be/qlKZKN7il7c"><a href="https://youtu.be/qlKZKN7il7c">https://youtu.be/qlKZKN7il7c</a></a></li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<ul>
+<li>
+Most Weekend Questions
+<ul>
+<li>Minecraft : 1.19</li>
+<li>LWJGL : 1.12</li>
+<li>SFML (Simple and Fast Multimedia Library) : 1.06</li>
+<li>D : 1.04</li>
+<li>pygame : 1.03</li>
+</ul>
+</li>
+<li>
+Least Weekend Questions
+<ul>
+<li>SQL Server Reporting Services 2008, r2 : 0.11</li>
+<li>Infragistics : 0.13</li>
+<li>SQL Server Reporting Services 2008 : 0.13</li>
+<li>Axapta : 0.13</li>
+<li>DocusignAPI : 0.14</li>
+</ul>
+</li>
+</ul>
+<p><a href="http://evelinag.com/exploring-stackoverflow/#/0/41">http://evelinag.com/exploring-stackoverflow/#/0/41</a></p>
+</section>
+<section >
+<h4>The Star Wars social network</h4>
+<ul>
+<li><a href="http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU"><a href="http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU">http://evelinag.com/blog/2015/12-15-star-wars-social-network/#.WA-N4nqTTOU</a></a></li>
+<li><a href="https://youtu.be/EI8a6hFFRGQ"><a href="https://youtu.be/EI8a6hFFRGQ">https://youtu.be/EI8a6hFFRGQ</a></a></li>
+</ul>
+</section>
+</section>
+<section >
+<h3>Alternate resources</h3>
+<ul>
+<li><a href="MBrace.io">MBrace.io</a></li>
+<li><a href="https://notebooks.azure.com/">Azure Notebooks</a></li>
+<li><a href="https://github.com/BlueMountainCapital/Deedle.BigDemo">BigDeedle</a></li>
+<li><a href="http://thegamma.net">The Gamma</a></li>
+<li><a href="https://github.com/Microsoft/?utf8=%E2%9C%93&amp;q=Angara">Angara</a></li>
+<li><a href="FSharp.org">FSharp.org</a></li>
+<li><a href="functionalprogramming.slack.com">functionalprogramming.slack.com</a></li>
+<li><a href="http://fsprojects.github.io/FSharp.Data.TypeProviders/sqldata.html">FSharp.Data.TypeProviders</a></li>
+<li><a href="http://bluemountaincapital.github.io/FSharpRProvider/mac-and-linux.html">FSharpRProvider</a></li>
+<li><a href="http://fsprojects.github.io/SQLProvider/">SqlProvider</a></li>
+<li><a href="http://fsprojects.github.io/FSharp.Data.SqlClient/">SqlClient Provider</a></li>
+<li><a href="http://fsprojects.github.io/DynamicsCRMProvider/">Dynamics CRM Provider</a></li>
+</ul>
+</section>
+
+
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+        // Add the nohighlight class and data-noescape attribute to code elements that have already been formatted by FSharp.Formatting
+        $('pre.highlighted code').addClass('nohighlight').attr('data-noescape', '');
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+</body>
+</html>
+
